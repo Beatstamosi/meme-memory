@@ -1,0 +1,21 @@
+.container-images {
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container-images:hover {
+  box-shadow: 3px 3px 3px pink;
+  background-color: black;
+}
+
+.container-images img {
+  object-fit: cover;
+  width: 330px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
