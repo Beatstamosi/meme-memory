@@ -1,12 +1,26 @@
-# React + Vite
+# Meme Memory Game 🧠🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun React-based memory card game where you earn points by clicking unique memes — but don’t click the same one twice, or it's game over!
 
-Currently, two official plugins are available:
+> Based on [The Odin Project's React Memory Card Lesson](https://www.theodinproject.com/lessons/node-path-react-new-memory-card)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Gameplay
 
-## Expanding the ESLint configuration
+- Click on a meme you haven't clicked before to increase your score.
+- If you click a duplicate, your current score resets.
+- Your **best score** is tracked across plays.
+- Reach a score of 20 to win!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Dynamic image fetching using an async `fetchData()` function.
+- Score tracking with a personal best.
+- Memes are shuffled after each correct click.
+- Responsive layout and engaging UI.
+
+## 🛠️ Technologies Used
+
+- React (Hooks: `useState`, `useEffect`)
+- JavaScript (ES6+)
+- CSS for styling
+
